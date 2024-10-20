@@ -17,7 +17,7 @@ contract Game20 is ERC20, Ownable {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor() ERC20("Game20", "GME") {
+    constructor() ERC20("Game20", "GME") Ownable(msg.sender) {
         _mint(msg.sender, INITIAL_SUPPLY);
     }
 
