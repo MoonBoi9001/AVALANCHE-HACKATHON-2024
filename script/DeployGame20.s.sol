@@ -19,8 +19,11 @@ contract DeployGame20 is Script {
             console.log("Game20 deployed at:", address(game20));
         } catch Error(string memory reason) {
             console.log("Deployment failed. Reason:", reason);
+        } catch Panic(uint errorCode) {
+            console.log("Deployment failed with Panic. Error code:", errorCode);
         } catch (bytes memory lowLevelData) {
             console.log("Deployment failed due to low-level error");
+            console.logBytes(lowLevelData);
         }
         
         vm.stopBroadcast();
