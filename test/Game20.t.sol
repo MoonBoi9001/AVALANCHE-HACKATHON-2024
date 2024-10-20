@@ -11,16 +11,16 @@ contract Game20Test is Test {
         game20 = new Game20();
     }
 
-    function testInitialSupply() public {
+    function testInitialSupply() public view {
         uint256 expectedSupply = 1_000_000 * 10 ** game20.decimals();
         assertEq(game20.totalSupply(), expectedSupply, "Initial supply should be 1,000,000 tokens");
     }
 
-    function testTokenName() public {
+    function testTokenName() public view {
         assertEq(game20.name(), "Game20", "Token name should be Game20");
     }
 
-    function testTokenSymbol() public {
+    function testTokenSymbol() public view {
         assertEq(game20.symbol(), "GME", "Token symbol should be GME");
     }
 }
