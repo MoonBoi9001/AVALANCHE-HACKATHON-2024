@@ -1,0 +1,32 @@
+# Node.js related files
+node_modules/
+package-lock.json
+package.json
+
+# Virtual environment files
+venv/
+*.pyc
+__pycache__/
+
+# Foundry build artifacts
+out/
+cache/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Git configuration files
+/.vscode
+.idea/
+*.swp
+*.iml
+
+# Hardhat configuration (since you've transitioned to Foundry)
+hardhat.config.js
+hardhat.config.ts
