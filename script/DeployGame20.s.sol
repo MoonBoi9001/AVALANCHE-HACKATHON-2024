@@ -7,7 +7,7 @@ import "../src/Game20.sol";
 contract DeployGame20 is Script {
     function run() external {
         vm.startBroadcast();
-        Game20 game20 = new Game20();
+        new Game20();
         vm.stopBroadcast();
     }
 }
