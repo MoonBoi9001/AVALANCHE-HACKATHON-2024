@@ -1,6 +1,7 @@
 # Avalanche Hackathon 2024
 
-This repository contains our Hackathon project for Avalanche Hackathon 2024.
+This repository contains a small portion of the code used in our Hackathon project for Avalanche Hackathon 2024.
+This repo contains contracts that can be deployed to launch your own ERC20. 
 
 ## Prerequisites Installation on Windows with Python 3.12
 
