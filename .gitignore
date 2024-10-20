@@ -30,3 +30,6 @@ Thumbs.db
 # Hardhat configuration (since you've transitioned to Foundry)
 hardhat.config.js
 hardhat.config.ts
+
+# broadcast logs
+broadcast/
