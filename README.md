@@ -62,7 +62,7 @@ Before setting up the Python environment, ensure the following tools are install
 - `src/`: Contains the Solidity contracts.
 - - `src/Game.sol`: Contains the Game20 token contract.
 - `script/`: Contains the deployment scripts.
-- `script/DeployGame20.s.sol`: Contains the deployment script for the Game20 token.
+- - `script/DeployGame20.s.sol`: Contains the deployment script for the Game20 token.
 - `test/`: Contains the test files.
 - - `test/Game20.t.sol`: Contains the test for the Game20 token.
 - `requirements.txt`: List of Python package dependencies
